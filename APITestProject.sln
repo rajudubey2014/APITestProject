@@ -5,7 +5,9 @@ VisualStudioVersion = 17.13.35919.96 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITestProject", "APITestProject.csproj", "{6D4F765A-126C-4CC5-B3A8-7D68CC27688D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityLayer", "UtilityLayer\UtilityLayer.csproj", "{498195E5-9234-4EF4-B68A-40F04F7FC1E0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "..\Model\Model.csproj", "{EDA55966-B569-48D0-AE09-FFC3D06F0842}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,13 +19,16 @@ Global
 		{6D4F765A-126C-4CC5-B3A8-7D68CC27688D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D4F765A-126C-4CC5-B3A8-7D68CC27688D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D4F765A-126C-4CC5-B3A8-7D68CC27688D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{498195E5-9234-4EF4-B68A-40F04F7FC1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{498195E5-9234-4EF4-B68A-40F04F7FC1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{498195E5-9234-4EF4-B68A-40F04F7FC1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{498195E5-9234-4EF4-B68A-40F04F7FC1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA55966-B569-48D0-AE09-FFC3D06F0842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA55966-B569-48D0-AE09-FFC3D06F0842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA55966-B569-48D0-AE09-FFC3D06F0842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA55966-B569-48D0-AE09-FFC3D06F0842}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDA55966-B569-48D0-AE09-FFC3D06F0842} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AEAC482E-6A45-402D-9B82-675E42B57D41}
